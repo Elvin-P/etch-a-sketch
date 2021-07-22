@@ -20,8 +20,8 @@ content {
 }
 
 .grid-container {
-    border: 1.9vh solid #694D75;
-    border-radius: 2vh;
+    border: 1.89vh solid #694D75;
+    border-radius: 1vh;
     margin: auto;
     display: grid;
     width: 100%;
