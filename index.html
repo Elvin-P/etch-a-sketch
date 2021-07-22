@@ -11,15 +11,22 @@
             <h1>Etch-a-sketch</h1>
         </head>
         <content>
-            <div class="buttons">
-                <button class='options' id='clear'>Clear</button>
-                <label>Color</label>
-                <input class='options' type='color' id='color' value=#ffffff></input>
-                <button class='options' id='rainbow'>Rainbow</button>
-                <label>Pixel size</label>
-                <input class='options' type='range' id='range' min=4 max=100 value=16>
+            <div id="grid-bar">
+                <div class="grid-container"></div>
             </div>
-            <div class="grid-container">
+            <div id="button-bar">
+                <div class="buttons">
+                    <button class='options' id='clear'>Clear</button>
+                    <div>
+                        <label for="color">Color</label>
+                        <input class='options' type='color' id='color' value=#ffffff></input>
+                    </div>    
+                    <button class='options' id='rainbow'>Rainbow</button>
+                    <div>
+                        <label for ="range">Canvas size</label>
+                        <input class='options' type='range' id='range' min=4 max=100 value=16>
+                    </div>
+                </div>
             </div>
         </content>
         <footer>
