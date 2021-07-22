@@ -1,7 +1,7 @@
 const grid = document.querySelector(".grid-container");
 const buttons = document.querySelectorAll('.options');
 let gridSize = 10;
-let color = 'white';
+let color = 'black';
 let rainbow = false;
 
 function random_rgb() {
@@ -54,7 +54,7 @@ const gridInit = function() {
     for(let i = 0; i < gridSize*gridSize; ++i) {
         const gridElement = document.createElement('div');
         gridElement.classList.add('element');
-        gridElement.style['background-color'] = 'black';
+        gridElement.style['background-color'] = 'white';
         gridElement.addEventListener('mouseover', draw)
         grid.appendChild(gridElement);
     }
